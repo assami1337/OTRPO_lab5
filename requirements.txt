@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+neomodel
+python-dotenv
+pytest
+requests
