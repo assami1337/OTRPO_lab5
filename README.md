@@ -24,10 +24,10 @@ pip install -r requirements.txt
 ```
 ### 4. Настройка переменных окружения
 # Скопируйте пример файла .env.example в .env и задайте значения для:
- `NEO4J_URI` - URI к вашей базе Neo4j, например "bolt://localhost:7687"
- `NEO4J_USER` - имя пользователя Neo4j
- `NEO4J_PASSWORD` - пароль пользователя Neo4j
- `LAB5_TOKEN` - секретный токен для авторизации при POST/DELETE запросах
+### `NEO4J_URI` - URI к вашей базе Neo4j, например "bolt://localhost:7687"
+### `NEO4J_USER` - имя пользователя Neo4j
+### `NEO4J_PASSWORD` - пароль пользователя Neo4j
+### `LAB5_TOKEN` - секретный токен для авторизации при POST/DELETE запросах
 ```
 cp .env.example .env
 ```
